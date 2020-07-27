@@ -1,0 +1,22 @@
+Pairs Trading Outline
+
+-Start with 2D
+-Export x+y signals, midpoint prices at time increments
+-Investigate optimal entry/exit with the signal
+1) Simple linear regression, set above threshold for transaction costs
+2) Find empirical probability distribution, calculate expected value (nope)
+3) machine learning classification methods for entry/exit
+	-1 if expected value of distribution is > transaction cost
+	-or perhaps just another naive linear thing
+
+-Extend into multidimensional, 8D
+-Do all the same things
+
+
+
+
+Perhaps investigate regime changes?
+
+"Developed/backtested multi-dimensional "pairs" trading strategy
+on eurodollar futures with CME tick data. Created initial signal via projections+PCA
+and investigated applications of machine learning for optimal entry/exit.
